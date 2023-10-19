@@ -1,10 +1,12 @@
 import 'dart:ffi';
 import 'package:flutter/material.dart';
+import 'package:pokedex/api/pokeapi.dart';
 import 'package:pokedex/utils/constants.dart';
 
 class Pokemon {
   String url;
   String name;
+  PokemonData? pokemonData;
 
   Pokemon({required this.url, required this.name});
 
