@@ -15,7 +15,7 @@ class Api {
     if (isOk) {
       return jsonDecode(content);
     } else {
-      throw Exception("Falha ao baixar dados: ${status}");
+      throw Exception("Falha ao baixar dados: $status");
     }
   }
 }
