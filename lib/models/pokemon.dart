@@ -1,6 +1,4 @@
-import 'dart:ffi';
-import 'package:flutter/material.dart';
-import 'package:pokedex/api/pokeapi.dart';
+import 'package:pokedex/models/pokemon_data.dart';
 import 'package:pokedex/utils/constants.dart';
 
 class Pokemon {

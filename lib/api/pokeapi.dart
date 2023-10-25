@@ -1,7 +1,7 @@
 import 'package:pokedex/models/pokemon.dart';
+import 'package:pokedex/models/pokemon_data.dart';
 import 'package:pokedex/services/api.dart';
 import 'package:pokedex/utils/constants.dart';
-import 'package:pokedex/models/pokemon_data.dart';
 
 class PokeAPI {
   static Future<PokemonData> getPokemonData(String pokemonUrl) async {
@@ -23,5 +23,3 @@ class PokeAPI {
     return pokemonList;
   }
 }
-
-class PokemonData {}

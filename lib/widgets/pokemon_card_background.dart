@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class PokemonCardBackgorund extends StatelessWidget {
-  const PokemonCardBackgorund({required this.id, super.key});
+class PokemonCardBackground extends StatelessWidget {
+  const PokemonCardBackground({required this.id, super.key});
   final int id;
 
   @override

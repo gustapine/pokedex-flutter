@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pokedex/api/pokeapi.dart';
 import 'package:pokedex/models/pokemon.dart';
-import 'package:pokedex/widgets/pokemon_card_backgorund.dart';
+import 'package:pokedex/models/pokemon_data.dart';
+import 'package:pokedex/widgets/pokemon_card_background.dart';
 import 'package:pokedex/widgets/pokemon_card_data.dart';
 
 class PokemonCard extends StatelessWidget {
@@ -46,7 +47,7 @@ class PokemonCard extends StatelessWidget {
         decoration: getContainerDecoration(),
         child: Stack(
           children: [
-            PokemonCardBackgorund(id: pokemon.id),
+            PokemonCardBackground(id: pokemon.id),
             PokemonCardData(pokemon: pokemon),
           ],
         ),
